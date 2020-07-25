@@ -3,7 +3,7 @@
  */
 
 // Retrieving an external resource (live JSON data.)
-fetch( "http://api.open-notify.org/astros.json" ) // Sends the request...
+fetch( "https://cat-fact.herokuapp.com/facts/random" ) // Sends the request...
   // We can use .then() to parse the response.
   .then( response => {
     if ( response.status >= 200 && response.status <= 299 )
